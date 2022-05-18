@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Title of the document</title>
-  <link rel="shortcut icon" href="images/smiley.jpeg" type=""image/x-icon">
+  <title>Comment form</title>
 </head>
 
 <body>
-  <h1>This is a heading</h1>
-  <p>This is a paragraph.</p>
+  <h1>Leave a Reply</h1>
 
-<strong>What's up ? </strong>
+  <h4>Your email address will not be published. Required fields are marked *</h2>
 
-<dd>Hi!</dd>
+  <form>
+    <label for="fname">Name:*</label>
+    <div><input type="text" id="fname" name="fname"></div>
+    <label for="fname">Email Address:*</label>
+    <div><input type="text" id="fname" name="fname"></div>
+    <label for="fname">Your Website:</label>
+    <div><input type="text" id="fname" name="fname"></div>
+    
+    <p><label for="Comment">Comment</label></p>
+    <textarea id="comment" name="comment" rows="4" cols="50">Add comment...</textarea>
 
-<img src="images/smiley.jpeg" alt="Smiley Face" width="135" height="100">
+    <div><input type="submit" value="Post Comment"></div>
+
+    <input type="checkbox" id="T&C" name="T&C" value="Bike">
+    <label for="T&C"> Accept T&C</label><br>
+    
+
+  </form>
+
 </body>
 
 </html>
