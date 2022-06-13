@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 1px;
+  border: 0px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0b0d0c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 110px;
+  margin-right: 31px
+}
+
+input[type=name] {
+  margin-top: 30px;
+  margin-bottom: 1px;
+  width: 295px;
+  border: transparent;
+}
+
+input[type=email] {
+  margin-top: 10px;
+  width: 295px;
+  border: transparent;
+}
+
+input[id=message] {
+  height: 2px;
+  width: 295px;
+}
+
+input[type=submit]:hover {
+  background-color: #666d66;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 320px;
+  height: 350px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0.3px 0.3px 1.5px 2px grey;
+  position:absolute
+}
+
+img {
+    margin-top: 50px;
+    margin-left: 500px;
+    height: 500px;
+}
+
+.contact-us {
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="contact-us">CONTACT US</div>
+    <input type="name" id="name-form" name="name" placeholder="Enter your Name">
+    <div class="p1">_________________________________</div>
+    <input type="email" id="email" name="email" placeholder="Enter a valid email address">
+    <div class="p2">_________________________________</div>
+    <textarea id="message" name="message" placeholder="Enter a message" style="height:100px"></textarea>
+    <div class="p3">_________________________________</div>
+    <input type="submit" value="SUBMIT">
+</div>
+
+    <img src="image.jpg" alt="image" style="width:380px">
+       
+     <hr>   
+
+</body>
+</html>
