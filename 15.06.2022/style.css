@@ -1,17 +1,17 @@
 
 .main-container {
     margin: auto;
-    width: 30%;
-    height: 50%;
-    border: 3px solid green;
-    padding: 300px;
+    width: 100px
+    height: 300px;
+    border: 1px solid green;
+    padding: 500px;
 }
 
 .women {
+    position: fixed;
     padding: 35px;
     border: 5px solid green;
-    position: fixed;
-    left: 280px
+    left: 150px
     
     
 }
@@ -34,7 +34,8 @@
     position: fixed;
     padding: 35px;
     border: 5px solid green;
-    right: 280px
+    right: 150px
+    
 }
 
 .men-image-container {
@@ -48,4 +49,9 @@
     margin-top: 5px;
     padding: 20px;
     border: 10px solid green;
+}
+
+img {
+    width: 200px;
+    border-radius: 100px
 }
