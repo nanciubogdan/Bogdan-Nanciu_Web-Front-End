@@ -7,30 +7,45 @@
     padding: 300px;
 }
 
-.women-container-image {
-    width: 30%
-    padding: 5px;
-    border: 100px solid green;
+.women {
+    padding: 35px;
+    border: 5px solid green;
+    position: fixed;
+    left: 280px
+    
+    
 }
 
-.men-container-image {
-    width: 30%
-    padding: 5px;
-    border: 100px solid green;
+.women-image-container {
+    
+    padding: 20px;
+    border: 10px solid green;
+    
 }
 
-img[src="women.jpg alt="image"] {
-    /* css */
-}
-
-img[src="men.jpg alt="image"] {
-    /* css */
-}
-
-img[src="flowers.jpg alt="image"] {
-    /* css */
+.women-flower-container {
+    margin-top: 5px;
+    padding: 20px;
+    border: 10px solid green;
 }
 
 
+.men {
+    position: fixed;
+    padding: 35px;
+    border: 5px solid green;
+    right: 280px
+}
 
+.men-image-container {
+    
+    padding: 20px;
+    border: 10px solid green;
+    
+}
 
+.men-flower-container {
+    margin-top: 5px;
+    padding: 20px;
+    border: 10px solid green;
+}
