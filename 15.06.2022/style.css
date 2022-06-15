@@ -1,0 +1,36 @@
+
+.main-container {
+    margin: auto;
+    width: 30%;
+    height: 50%;
+    border: 3px solid green;
+    padding: 300px;
+}
+
+.women-container-image {
+    width: 30%
+    padding: 5px;
+    border: 100px solid green;
+}
+
+.men-container-image {
+    width: 30%
+    padding: 5px;
+    border: 100px solid green;
+}
+
+img[src="women.jpg alt="image"] {
+    /* css */
+}
+
+img[src="men.jpg alt="image"] {
+    /* css */
+}
+
+img[src="flowers.jpg alt="image"] {
+    /* css */
+}
+
+
+
+
