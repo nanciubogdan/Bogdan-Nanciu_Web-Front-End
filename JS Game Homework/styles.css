@@ -6,8 +6,8 @@
     color: #fff;
     margin-top: 15px;
 }
-/* To center everything in game */
-.game{
+/* To center everything */
+.game {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -18,7 +18,7 @@
 }
  
 /* Title of the game */
-.title{
+.title {
     position: absolute;
     top: 0;
     font-size: 3rem;
@@ -27,7 +27,7 @@
 }
  
 /* Score Board */
-.score{
+.score {
     display: flex;
     width: 30vw;
     justify-content: space-evenly;
@@ -40,7 +40,7 @@
 }
  
 /* Score  */
-.p-count,.c-count{
+.p-count,.c-count {
     text-align: center;
     font-size: 1.5rem;
     margin-top: 1rem;
@@ -56,7 +56,7 @@
 }
  
 /* Styling on all three buttons */
-.rock, .paper, .scissor{
+.rock, .paper, .scissor {
     padding: 1rem;
     width: 135px;
     border-radius: 10px;
@@ -67,7 +67,7 @@
     cursor: pointer;
 }
  
-.move{
+.move {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 40px;
@@ -86,8 +86,6 @@
     border-radius: 10px;
     cursor: pointer;
     width: 180px;
-    
-    
     
 }
  
