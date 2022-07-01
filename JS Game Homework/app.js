@@ -110,7 +110,7 @@ const game = () => {
             result.innerText = 'Tie';
             result.style.color = 'grey'
         }
-        reloadBtn.innerText = 'Restart';
+        reloadBtn.innerText = 'RESTART';
         reloadBtn.style.display = 'flex'
         reloadBtn.addEventListener('click',() => {
             window.location.reload();
