@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #6682ae;
+    color: #fff;
+    margin-top: 15px;
+}
+/* To center everything */
+.game {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+/* Title of the game */
+.title {
+    position: absolute;
+    top: 0;
+    font-size: 3rem;
+    z-index: 2;
+    margin-top: 10px
+}
+ 
+/* Score Board */
+.score {
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    
+}
+ 
+/* Score  */
+.p-count,.c-count {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color:rgb(171, 212, 215)
+}
+ 
+/* displaying three buttons in one line */
+.options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+ 
+/* Styling on all three buttons */
+.rock, .paper, .scissor {
+    padding: 1rem;
+    width: 135px;
+    border-radius: 10px;
+    background: rgb(161, 152, 20);
+    outline: none;
+    border-color: rgb(65, 41, 35);
+    border: none;
+    cursor: pointer;
+}
+ 
+.move {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+ 
+/* Reload button style */
+.reload {
+    display: none;
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4.2rem;
+    background: rgb(189, 110, 15);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 180px;
+    
+}
+ 
+.result{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: aqua;
+}
+ 
+/* Responsive Design */
+@media screen and (max-width: 612px)
+{ 
+    .title{
+        text-align: center;
+    }
+    .score{
+        position: absolute;
+        top: 200px;
+        width: 100vw;
+    }
+    .options{
+        width: 100vw;
+    }
